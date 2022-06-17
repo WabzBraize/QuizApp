@@ -18,7 +18,7 @@ function showProgress() {
 
 //Start progressbar
 function startProgress() {
-    currentWidth += 10;
+    currentWidth += 100/30;
     progressBar.style.width = currentWidth + '%';
     if (currentWidth >= totalWidth) {
         clearInterval(int);
