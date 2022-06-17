@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quizApp.css">
+    <link rel="stylesheet" href="font/css/all.css">
+    <title>Classic quiz app</title>
+</head>
+
+<body>
+    <h1 class="heading1">CLASSIC QUIZAPP IN VANILLA JAVASCRIPT</h1>
+    <div class="quiz-container">
+        <div class="progress-bar" id="progress"></div>
+        <div class="quiz-header">
+            <div class="quiz-title">
+                <h2 class="title">Classic QuizApp</h2>
+            </div>
+            <div class="timer">
+                <i class="fas fa-stopwatch fa-2x "></i>
+                <h2 class="time"></h2>
+            </div>
+        </div>
+        <div class="quiz-body">
+            <h3 id="question">1. Question Text</h3>
+            <ul id="options">
+                <div class="list">
+                    <li class="option" id="a">Option1</li>
+                    <div class="number">1</div>
+                    <div class="icons">
+                        <div class="check"><i class="fas fa-check-circle icon"></i></div>
+                        <div class="times"><i class="fas fa-times-circle icon"></i></div>
+                    </div>
+                </div>
+                <div class="list">
+                    <li class="option" id="b">Option2</li>
+                    <div class="number">2</div>
+                    <div class="icons">
+                        <div class="check"><i class="fas fa-check-circle icon"></i></div>
+                        <div class="times"><i class="fas fa-times-circle icon"></i></div>
+                    </div>
+                </div>
+                <div class="list">
+                    <li class="option" id="c">Option3</li>
+                    <div class="number">3</div>
+                    <div class="icons">
+                        <div class="check"><i class="fas fa-check-circle icon"></i></div>
+                        <div class="times"><i class="fas fa-times-circle icon"></i></div>
+                    </div>
+                </div>
+                <div class="list">
+                    <li class="option" id="d">Option4</li>
+                    <div class="number">4</div>
+                    <div class="icons">
+                        <div class="check"><i class="fas fa-check-circle icon"></i></div>
+                        <div class="times"><i class="fas fa-times-circle icon"></i></div>
+                    </div>
+                </div>
+            </ul>
+            <div id="questionNo"></div>
+            <button class="btn" id="loadQuiz">Next</button>
+        </div>
+    </div>
+
+    <script src="js/quizData.js"></script>
+    <script src="js/quizApp.js"></script>
+</body>
+
+</html>
