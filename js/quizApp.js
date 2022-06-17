@@ -35,7 +35,7 @@ function setInt() {
 }
 
 const timerContainer = document.querySelector('.time');
-var sec = 10;
+var sec = 30;
 
 //Start the timer-------------------------------
 function startTimer() {
@@ -52,7 +52,7 @@ function startTimer() {
 }
 
 function resetTimer() {
-    sec = 10;
+    sec = 30;
 }
 
 
