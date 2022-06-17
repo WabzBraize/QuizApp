@@ -90,7 +90,7 @@ loadQuizBtn.addEventListener('click', () => {
         progressBar.style.display = "none";
         quizBody.innerHTML = `
         <center>
-        <img src="../img/a (12).png" class="img">
+        <img src="../a (12).png" class="img">
        <h2>You've completed the quiz</h2>
        <h3 class="score">You have scored ${score}/${quizData.length} questions</h3>
        <button class="btn" id="load" onclick="window.location.reload()">Load Again</button>
